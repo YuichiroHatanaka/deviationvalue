@@ -30,7 +30,7 @@ int main(void){
   
   dev = 10 * dev + 50;
   
-  printf("偏差値は%lfです。\n", &dev);
+  printf("偏差値は%lfです。\n", dev);
   
   return 0;
 }
